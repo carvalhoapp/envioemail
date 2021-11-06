@@ -9,7 +9,7 @@
 			<small class="text-muted">www.dicanarede.com.br</small>
 		</div>
 
-		<form id="form" method="POST">
+		<form  action="https://formspree.io/f/myylqlka"  method="POST"  enctype="multipart/form-data">
 		    <div class="form-group">
 		    	<label>Nome</label>
 		    	<input type="text" name="name" id="name" class="form-control">
@@ -22,6 +22,11 @@
 		    	<label>Mensagem</label>
 		    	<textarea name="message" id="message" class="form-control" rows="5"></textarea>
 		    </div>
+			<label>
+			    Your file:
+			    <input type="file" name="upload">
+			  </label>
+			  <button type="submit">Send</button>
 		    <div class="form-group">
 		    	<input type="submit" value="Send" class="btn btn-primary btn-lg">
 		    </div>
